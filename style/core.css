@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	padding-top: 5%;
+}
+
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	padding: 7px;
+	transition: background .1s, border .1s;
+	-moz-transition: background .1s, border .1s;
+	-webkit-transition: background .1s, border .1s;
+	-o-transition: background .1s, border .1s;
+}
+
+input:hover, input:focus {
+	border: 1px solid #aaa;
+	background: #eee;
+}
