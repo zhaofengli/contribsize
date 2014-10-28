@@ -21,7 +21,7 @@
 	OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-include __DIR__ . "/config.php";
+require_once __DIR__ . "/config.php";
 
 function connectDb() {
 	global $dbhost, $dbname, $dbuser, $dbpass;

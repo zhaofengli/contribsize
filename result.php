@@ -21,7 +21,7 @@
 	OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-include __DIR__ . "/includes/core.php";
+require_once __DIR__ . "/includes/core.php";
 ?>
 <!doctype html>
 <html>
