@@ -33,7 +33,7 @@ function getSize( $username ) {
 	$db = connectDb();
 	$sql = "select rev_len,rev_parent_id from revision_userindex where rev_user_text=:username";
 	$stmt = $db->prepare( $sql );
-	$stmt->bindValue( ":username", $username );
+	$stmt->bindValue( ":username", ucfirst( $username ) );
 	if ( $stmt->execute() ) {
 		$size = 0;
 		$newlen = array();
